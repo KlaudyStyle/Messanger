@@ -16,6 +16,7 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+app.UseRouting();
 app.UseCors("AllowAll");
 
 if (app.Environment.IsDevelopment())

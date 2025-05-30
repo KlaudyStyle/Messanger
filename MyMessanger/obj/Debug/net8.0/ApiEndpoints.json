@@ -1,27 +1,39 @@
 [
   {
-    "ContainingType": "MyMessanger.Controllers.MessagesController",
-    "Method": "Get",
-    "RelativePath": "api/Messages",
-    "HttpMethod": "GET",
+    "ContainingType": "MyMessanger.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
+    "Parameters": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[MyMessanger.Controllers.Message, MyMessanger, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "request",
+        "Type": "MyMessanger.Controllers.AuthRequest",
+        "IsRequired": true
       }
-    ]
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyMessanger.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MyMessanger.Controllers.AuthRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "MyMessanger.Controllers.MessagesController",
-    "Method": "Post",
+    "Method": "SendMessage",
     "RelativePath": "api/Messages",
     "HttpMethod": "POST",
     "IsController": true,
@@ -29,10 +41,20 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "MyMessanger.Controllers.MessageRequest",
+        "Type": "MyMessanger.Controllers.SendMessageRequest",
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MyMessanger.Controllers.MessagesController",
+    "Method": "GetMessages",
+    "RelativePath": "api/Messages",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

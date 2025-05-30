@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Klaudy\Desktop\MyMessagerClient\obj\Debug\
+C:\Users\Klaudy\Desktop\Messanger\MyMessagerClient\obj\Debug\
 MyMessagerClient
 none
 false
 DEBUG;TRACE
-C:\Users\Klaudy\Desktop\MyMessagerClient\App.xaml
-1219584333
+C:\Users\Klaudy\Desktop\Messanger\MyMessagerClient\App.xaml
+2-597848694
 
-81766869114
-241246921977
-MainWindow.xaml;
+11-120249207
+242145870241
+LoginWindow.xaml;MainWindow.xaml;
 
 False
 

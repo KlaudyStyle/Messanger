@@ -68,3 +68,5 @@ C:\Users\Klaudy\Desktop\Messanger\MyMessagerClient\obj\Debug\MyMessagerClient.cs
 C:\Users\Klaudy\Desktop\Messanger\MyMessagerClient\obj\Debug\MyMessag.BB1AF1A7.Up2Date
 C:\Users\Klaudy\Desktop\Messanger\MyMessagerClient\obj\Debug\MyMessagerClient.exe
 C:\Users\Klaudy\Desktop\Messanger\MyMessagerClient\obj\Debug\MyMessagerClient.pdb
+C:\Users\Klaudy\Desktop\Messanger\MyMessagerClient\obj\Debug\LoginWindow.baml
+C:\Users\Klaudy\Desktop\Messanger\MyMessagerClient\obj\Debug\LoginWindow.g.cs

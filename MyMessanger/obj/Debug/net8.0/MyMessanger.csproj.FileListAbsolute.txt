@@ -62,3 +62,5 @@ C:\Users\Klaudy\Desktop\Messanger\MyMessanger\obj\Debug\net8.0\refint\MyMessange
 C:\Users\Klaudy\Desktop\Messanger\MyMessanger\obj\Debug\net8.0\MyMessanger.pdb
 C:\Users\Klaudy\Desktop\Messanger\MyMessanger\obj\Debug\net8.0\MyMessanger.genruntimeconfig.cache
 C:\Users\Klaudy\Desktop\Messanger\MyMessanger\obj\Debug\net8.0\ref\MyMessanger.dll
+C:\Users\Klaudy\Desktop\Messanger\MyMessanger\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Klaudy\Desktop\Messanger\MyMessanger\obj\Debug\net8.0\MyMessanger.sourcelink.json

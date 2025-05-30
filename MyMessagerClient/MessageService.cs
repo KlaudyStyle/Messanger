@@ -4,54 +4,56 @@ using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
 
-public class MessageService
+namespace MyMessagerClient
 {
-    private readonly HttpClient _httpClient;
-    private const string ApiUrl = "https://localhost:7013/api/messages";
-
-    public MessageService()
+    public class MessageService
     {
-        _httpClient = new HttpClient();
-        _httpClient.Timeout = TimeSpan.FromSeconds(10);
-    }
+        private readonly HttpClient _httpClient;
+        private const string ApiUrl = "https://localhost:7013/api/messages";
 
-    public async Task<List<Message>> GetMessagesAsync()
-    {
-        try
+        public MessageService()
         {
-            var response = await _httpClient.GetFromJsonAsync<List<Message>>(ApiUrl);
-            return response ?? new List<Message>();
+            _httpClient = new HttpClient();
         }
-        catch
-        {
-            return new List<Message>();
-        }
-    }
 
-    public async Task<bool> SendMessageAsync(string username, string text)
-    {
-        try
+        public async Task<List<Message>> GetMessagesAsync()
         {
-            var request = new
+            try
             {
-                UserName = username,
-                Text = text
-            };
-
-            var response = await _httpClient.PostAsJsonAsync(ApiUrl, request);
-            return response.IsSuccessStatusCode;
+                return await _httpClient.GetFromJsonAsync<List<Message>>(ApiUrl)
+                    ?? new List<Message>();
+            }
+            catch
+            {
+                return new List<Message>();
+            }
         }
-        catch
+
+        public async Task<bool> SendMessageAsync(string message, string token)
         {
-            return false;
+            try
+            {
+                var request = new
+                {
+                    Message = message,
+                    Token = token
+                };
+
+                var response = await _httpClient.PostAsJsonAsync(ApiUrl, request);
+                return response.IsSuccessStatusCode;
+            }
+            catch
+            {
+                return false;
+            }
         }
     }
-}
 
-public class Message
-{
-    public Guid Id { get; set; }
-    public string Text { get; set; }
-    public string UserName { get; set; }
-    public DateTime CreatedAt { get; set; }
+    public class Message
+    {
+        public Guid Id { get; set; }
+        public string Text { get; set; }
+        public string UserName { get; set; }
+        public DateTime CreatedAt { get; set; }
+    }
 }

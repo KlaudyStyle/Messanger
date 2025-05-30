@@ -1,54 +1,56 @@
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace MyMessanger.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class MessagesController : ControllerBase
     {
-        private static List<Message> messages = new List<Message>();
-
-        [HttpGet]
-        public ActionResult<IEnumerable<Message>> Get()
-        {
-            return Ok(messages);
-        }
+        private static readonly List<Message> _messages = new List<Message>();
 
         [HttpPost]
-        public ActionResult Post([FromBody] MessageRequest request)
+        public IActionResult SendMessage([FromBody] SendMessageRequest request)
         {
-            if (string.IsNullOrWhiteSpace(request.Text) ||
-                string.IsNullOrWhiteSpace(request.UserName))
-            {
-                return BadRequest("Текст и имя пользователя обязательны");
-            }
+            if (request == null)
+                return BadRequest("Неверный запрос");
+
+            var user = AuthController.Users.FirstOrDefault(u =>
+                u.Token == request.Token && u.TokenExpiry > DateTime.UtcNow);
+
+            if (user == null)
+                return Unauthorized("Недействительный токен");
 
             var message = new Message
             {
-                Id = Guid.NewGuid(),
-                Text = request.Text,
-                UserName = request.UserName,
-                CreatedAt = DateTime.UtcNow
+                Text = request.Message,
+                Username = user.Username
             };
 
-            messages.Add(message);
+            _messages.Add(message);
             return Ok();
+        }
+
+        [HttpGet]
+        public IActionResult GetMessages()
+        {
+            return Ok(_messages);
         }
     }
 
     public class Message
     {
-        public Guid Id { get; set; }
-        public string Text { get; set; }
-        public string UserName { get; set; }
-        public DateTime CreatedAt { get; set; }
+        public Guid Id { get; set; } = Guid.NewGuid();
+        public string Text { get; set; } = string.Empty;
+        public string Username { get; set; } = string.Empty;
+        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     }
 
-    public class MessageRequest
+    public class SendMessageRequest
     {
-        public string Text { get; set; }
-        public string UserName { get; set; }
+        public string Message { get; set; } = string.Empty;
+        public string Token { get; set; } = string.Empty;
     }
 }

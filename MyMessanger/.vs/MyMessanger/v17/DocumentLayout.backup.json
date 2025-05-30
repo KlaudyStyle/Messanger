@@ -3,19 +3,69 @@
   "WorkspaceRootPath": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessanger\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Klaudy\\Desktop\\MyMessagerClient\\MessageService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19385945-46F7-4D2E-BD65-DBAD2DCED251}|MyMessanger.csproj|c:\\users\\klaudy\\desktop\\messanger\\mymessanger\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19385945-46F7-4D2E-BD65-DBAD2DCED251}|MyMessanger.csproj|solutionrelative:controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{19385945-46F7-4D2E-BD65-DBAD2DCED251}|MyMessanger.csproj|c:\\users\\klaudy\\desktop\\messanger\\mymessanger\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19385945-46F7-4D2E-BD65-DBAD2DCED251}|MyMessanger.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19385945-46F7-4D2E-BD65-DBAD2DCED251}|MyMessanger.csproj|c:\\users\\klaudy\\desktop\\messanger\\mymessanger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19385945-46F7-4D2E-BD65-DBAD2DCED251}|MyMessanger.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19385945-46F7-4D2E-BD65-DBAD2DCED251}|MyMessanger.csproj|c:\\users\\klaudy\\desktop\\messanger\\mymessanger\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19385945-46F7-4D2E-BD65-DBAD2DCED251}|MyMessanger.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19385945-46F7-4D2E-BD65-DBAD2DCED251}|MyMessanger.csproj|c:\\users\\klaudy\\desktop\\messanger\\mymessanger\\models\\sendmessagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19385945-46F7-4D2E-BD65-DBAD2DCED251}|MyMessanger.csproj|solutionrelative:models\\sendmessagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19385945-46F7-4D2E-BD65-DBAD2DCED251}|MyMessanger.csproj|c:\\users\\klaudy\\desktop\\messanger\\mymessanger\\models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19385945-46F7-4D2E-BD65-DBAD2DCED251}|MyMessanger.csproj|solutionrelative:models\\message.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19385945-46F7-4D2E-BD65-DBAD2DCED251}|MyMessanger.csproj|c:\\users\\klaudy\\desktop\\messanger\\mymessanger\\models\\authrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19385945-46F7-4D2E-BD65-DBAD2DCED251}|MyMessanger.csproj|solutionrelative:models\\authrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19385945-46F7-4D2E-BD65-DBAD2DCED251}|MyMessanger.csproj|c:\\users\\klaudy\\desktop\\messanger\\mymessanger\\controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19385945-46F7-4D2E-BD65-DBAD2DCED251}|MyMessanger.csproj|solutionrelative:controllers\\messagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19385945-46F7-4D2E-BD65-DBAD2DCED251}|MyMessanger.csproj|c:\\users\\klaudy\\desktop\\messanger\\mymessanger\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19385945-46F7-4D2E-BD65-DBAD2DCED251}|MyMessanger.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F0181E9-C9E6-4BF0-A2EE-54086D075462}|..\\MyMessagerClient\\MyMessagerClient.csproj|c:\\users\\klaudy\\desktop\\messanger\\mymessagerclient\\usernamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F0181E9-C9E6-4BF0-A2EE-54086D075462}|..\\MyMessagerClient\\MyMessagerClient.csproj|c:\\users\\klaudy\\desktop\\messanger\\mymessagerclient\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F0181E9-C9E6-4BF0-A2EE-54086D075462}|..\\MyMessagerClient\\MyMessagerClient.csproj|c:\\users\\klaudy\\desktop\\messanger\\mymessagerclient\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F0181E9-C9E6-4BF0-A2EE-54086D075462}|..\\MyMessagerClient\\MyMessagerClient.csproj|c:\\users\\klaudy\\desktop\\messanger\\mymessagerclient\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F0181E9-C9E6-4BF0-A2EE-54086D075462}|..\\MyMessagerClient\\MyMessagerClient.csproj|c:\\users\\klaudy\\desktop\\messanger\\mymessagerclient\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F0181E9-C9E6-4BF0-A2EE-54086D075462}|..\\MyMessagerClient\\MyMessagerClient.csproj|c:\\users\\klaudy\\desktop\\messanger\\mymessagerclient\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F0181E9-C9E6-4BF0-A2EE-54086D075462}|..\\MyMessagerClient\\MyMessagerClient.csproj|c:\\users\\klaudy\\desktop\\messanger\\mymessagerclient\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F0181E9-C9E6-4BF0-A2EE-54086D075462}|..\\MyMessagerClient\\MyMessagerClient.csproj|c:\\users\\klaudy\\desktop\\messanger\\mymessagerclient\\authtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F0181E9-C9E6-4BF0-A2EE-54086D075462}|..\\MyMessagerClient\\MyMessagerClient.csproj|c:\\users\\klaudy\\desktop\\messanger\\mymessagerclient\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F0181E9-C9E6-4BF0-A2EE-54086D075462}|..\\MyMessagerClient\\MyMessagerClient.csproj|c:\\users\\klaudy\\desktop\\messanger\\mymessagerclient\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Klaudy\\Desktop\\MyMessagerClient\\MessageService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Klaudy\\Desktop\\MyMessagerClient\\UsernameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -37,11 +87,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MessagesController.cs",
+              "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessanger\\Controllers\\MessagesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MessagesController.cs",
+              "ToolTip": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessanger\\Controllers\\MessagesController.cs",
+              "RelativeToolTip": "Controllers\\MessagesController.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:46:42.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessanger\\Models\\AuthRequest.cs",
+              "RelativeDocumentMoniker": "Models\\AuthRequest.cs",
+              "ToolTip": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessanger\\Models\\AuthRequest.cs",
+              "RelativeToolTip": "Models\\AuthRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T18:08:43.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Message.cs",
+              "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessanger\\Models\\Message.cs",
+              "RelativeDocumentMoniker": "Models\\Message.cs",
+              "ToolTip": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessanger\\Models\\Message.cs",
+              "RelativeToolTip": "Models\\Message.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T18:08:28.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SendMessageRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessanger\\Models\\SendMessageRequest.cs",
+              "RelativeDocumentMoniker": "Models\\SendMessageRequest.cs",
+              "ToolTip": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessanger\\Models\\SendMessageRequest.cs",
+              "RelativeToolTip": "Models\\SendMessageRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T18:08:55.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessanger\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessanger\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T18:08:08.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessanger\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessanger\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T17:46:40.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessanger\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "WeatherForecast.cs",
@@ -49,23 +177,163 @@
               "RelativeToolTip": "WeatherForecast.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T17:51:23.23Z"
+              "WhenOpened": "2025-05-30T17:51:23.23Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessanger\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessanger\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAADwv0IAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T18:09:17.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsernameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessagerClient\\UsernameManager.cs",
+              "RelativeDocumentMoniker": "..\\MyMessagerClient\\UsernameManager.cs",
+              "ToolTip": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessagerClient\\UsernameManager.cs",
+              "RelativeToolTip": "..\\MyMessagerClient\\UsernameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T18:00:38.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessagerClient\\MessageService.cs",
+              "RelativeDocumentMoniker": "..\\MyMessagerClient\\MessageService.cs",
+              "ToolTip": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessagerClient\\MessageService.cs",
+              "RelativeToolTip": "..\\MyMessagerClient\\MessageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T18:00:13.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessagerClient\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\MyMessagerClient\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessagerClient\\MainWindow.xaml.cs",
+              "RelativeToolTip": "..\\MyMessagerClient\\MainWindow.xaml.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwCQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T18:14:20.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessagerClient\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "..\\MyMessagerClient\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessagerClient\\MainWindow.xaml",
+              "RelativeToolTip": "..\\MyMessagerClient\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-30T18:11:31.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessagerClient\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "..\\MyMessagerClient\\LoginWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessagerClient\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "..\\MyMessagerClient\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAkwBAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T18:10:43.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessagerClient\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "..\\MyMessagerClient\\LoginWindow.xaml",
+              "ToolTip": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessagerClient\\LoginWindow.xaml",
+              "RelativeToolTip": "..\\MyMessagerClient\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-30T18:10:32.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessagerClient\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\MyMessagerClient\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessagerClient\\AuthService.cs",
+              "RelativeToolTip": "..\\MyMessagerClient\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T18:12:41.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthToken.cs",
+              "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessagerClient\\AuthToken.cs",
+              "RelativeDocumentMoniker": "..\\MyMessagerClient\\AuthToken.cs",
+              "ToolTip": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessagerClient\\AuthToken.cs",
+              "RelativeToolTip": "..\\MyMessagerClient\\AuthToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T18:14:00.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessagerClient\\App.xaml.cs",
+              "RelativeDocumentMoniker": "..\\MyMessagerClient\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessagerClient\\App.xaml.cs",
+              "RelativeToolTip": "..\\MyMessagerClient\\App.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T18:20:59.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessagerClient\\App.xaml",
+              "RelativeDocumentMoniker": "..\\MyMessagerClient\\App.xaml",
+              "ToolTip": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessagerClient\\App.xaml",
+              "RelativeToolTip": "..\\MyMessagerClient\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-30T18:20:56.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "UsernameManager.cs",
               "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\MyMessagerClient\\UsernameManager.cs",
               "RelativeDocumentMoniker": "..\\..\\MyMessagerClient\\UsernameManager.cs",
               "ToolTip": "C:\\Users\\Klaudy\\Desktop\\MyMessagerClient\\UsernameManager.cs",
               "RelativeToolTip": "..\\..\\MyMessagerClient\\UsernameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T17:50:02.8Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 18,
               "Title": "MessageService.cs",
               "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\MyMessagerClient\\MessageService.cs",
               "RelativeDocumentMoniker": "..\\..\\MyMessagerClient\\MessageService.cs",
@@ -76,43 +344,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 20,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\MyMessagerClient\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "..\\..\\MyMessagerClient\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Klaudy\\Desktop\\MyMessagerClient\\MainWindow.xaml.cs",
               "RelativeToolTip": "..\\..\\MyMessagerClient\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-30T17:48:26.636Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessanger\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessanger\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T17:46:40.916Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MessagesController.cs",
-              "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessanger\\Controllers\\MessagesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MessagesController.cs",
-              "ToolTip": "C:\\Users\\Klaudy\\Desktop\\Messanger\\MyMessanger\\Controllers\\MessagesController.cs",
-              "RelativeToolTip": "Controllers\\MessagesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T17:46:42.666Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 21,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\MyMessagerClient\\MainWindow.xaml",
               "RelativeDocumentMoniker": "..\\..\\MyMessagerClient\\MainWindow.xaml",
@@ -123,13 +366,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 22,
               "Title": "packages.config",
               "DocumentMoniker": "C:\\Users\\Klaudy\\Desktop\\MyMessagerClient\\packages.config",
               "RelativeDocumentMoniker": "..\\..\\MyMessagerClient\\packages.config",
               "ToolTip": "C:\\Users\\Klaudy\\Desktop\\MyMessagerClient\\packages.config",
               "RelativeToolTip": "..\\..\\MyMessagerClient\\packages.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-05-30T17:49:44.154Z"
             }
